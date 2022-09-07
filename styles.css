@@ -36,9 +36,7 @@ h1 {
   color: #f9faf8;
 }
 
-.top {
- 
-}
+
 
 h2 {
     font-size: 48px;
@@ -101,10 +99,14 @@ button {
   background-color: white;
   display: flex;
   justify-content: center;
+  gap: 100px;
+  
 }
 
 
 .info-title {
+ padding-top: 40px;
+ padding-bottom: 60px;
 font-size: 36px;
 font-weight: bolder;
 color: #1F2937;
@@ -116,15 +118,23 @@ text-align: center;
 .box-container {
   display: flex;
   flex-direction: column;
+  flex-basis: 108px;
+text-align: center;
+margin-bottom: 120px;
+
 
 }
 
 
 .blue-box {
-width: 100px;
-height: 100px;
+width: 150px;
+height: 150px;
 border: 4px solid #3882F6;
 border-radius: 10px;
 display: flex;
+}
 
+.blue-box-text {
+  margin-top: 10px;
+  color: rgb(109, 103, 103);
 }
