@@ -201,4 +201,13 @@ p {
   align-self: center;
 }
 
+.footer-copyright {
+  background-color: #1f2937;
+  margin: 50px;
+  color: #e5e7eb;
+  font-size: 18px;
+  text-align: center;
+
+}
+
 
